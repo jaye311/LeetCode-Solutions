@@ -52,6 +52,7 @@ public class AddTwoNumbersSolution {
     }
 
     }
+    //o(l1) time+o(l2)time
   public static class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         StringBuilder one=new StringBuilder(""+l1.val);
